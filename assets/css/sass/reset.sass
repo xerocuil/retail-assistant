@@ -1,0 +1,56 @@
+/** Reset
+  Modified from minireset.css v0.0.4 (MIT License)
+  github.com/jgthms/minireset.css
+  **/
+
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6
+  margin: 0
+  padding: 0
+  
+ul li
+  list-style: none
+
+button, input, select, textarea
+  margin: 0
+
+html
+  box-sizing: border-box
+
+*
+  box-sizing: inherit
+  &::before, &::after
+    box-sizing: inherit
+
+img, embed, iframe, object, video
+  height: auto
+  max-width: 100%
+
+audio
+  max-width: 100%
+
+iframe
+  border: 0
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+td, th
+  padding: 0
+  text-align: left
+
+html
+  background-color: white
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  min-width: 300px
+  overflow-x: hidden
+  overflow-y: scroll
+  text-rendering: optimizeLegibility
+  -webkit-text-size-adjust: 100%
+  -moz-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  text-size-adjust: 100%
+
+article, aside, figure, footer, header, hgroup, section
+  display: block
